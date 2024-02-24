@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator || Frontend Mentor</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <section class="sec1">
+        <div class="age-card">
+          <form action="#" class="form-input" id="form">
+            <div class="day">
+              <label for="date" class="lbel">Day</label><br />
+              <input
+                type="text"
+                class="age"
+                name="day"
+                id="dd"
+                placeholder="DD"
+              />
+              <small class="error-day"></small>
+            </div>
+            <div class="month">
+              <label for="month" class="lbel">month</label><br />
+              <input
+                type="text"
+                class="age"
+                name="month"
+                id="mm"
+                placeholder="MM"
+              />
+              <small class="error-month"></small>
+            </div>
+
+            <div class="year">
+              <label for="year" class="lbel">year</label><br />
+              <input
+                type="text"
+                class="age"
+                name="year"
+                id="yy"
+                placeholder="YYYY"
+              />
+              <small class="error-year"></small>
+            </div>
+          </form>
+          <div class="btnhr">
+            <hr class="hr" />
+            <button class="btn" id="btnImage">
+              <img class="arr-image" src="CSS/image/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="age-detail">
+            <h1 class="data">
+              <span class="dash" id="output-year">--</span> years
+            </h1>
+            <h1 class="data">
+              <span class="dash" id="output-month">--</span>months
+            </h1>
+            <h1 class="data">
+              <span class="dash" id="output-days">--</span>days
+            </h1>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
